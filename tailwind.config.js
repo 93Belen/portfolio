@@ -22,6 +22,12 @@ module.exports = {
       'medium': '400',
       'bold': '700'
     },
+    fontSize: {
+      "sm": '1.125rem',
+      "md": "1.25rem",
+      "lg": "2.25",
+      "xl": '4rem'
+    },
     extend: {},
   },
   plugins: [],
