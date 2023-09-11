@@ -28,6 +28,13 @@ module.exports = {
       "lg": "2.25",
       "xl": '4rem'
     },
+    screens: {
+      'sm': '300px',
+      'md': '600px',
+      'lg': '924px',
+      'xl': '1180px',
+      '2xl': '1436px',
+    },
     extend: {},
   },
   plugins: [],
