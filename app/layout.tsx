@@ -24,7 +24,9 @@ export default function RootLayout({
     <html className={`${montserrat.variable}`} lang="en">
       <body>
         <Header/>
+        <main className='px-[24px] md:px-[80px] bg-black'>
         {children}
+        </main>
         <Footer/>
         </body>
     </html>

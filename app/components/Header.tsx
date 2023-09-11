@@ -17,6 +17,7 @@ export default function Header(){
           document.body.classList.add('disable-scroll');
         } else {
           document.body.classList.remove('disable-scroll');
+
         }
     
         return () => {
@@ -27,7 +28,7 @@ export default function Header(){
 
 
     return (
-        <header className={`w-full ${isOpen ? "bg-purple" : "bg-black"} md:bg-black flex justify-between py-[1.375rem] px-[1.5rem] h-[12vh] md:justify-center align-middle md:h-fit`}>
+        <header className={`w-full ${isOpen ? "bg-purple" : "bg-black"} md:bg-black flex justify-between py-[1.375rem] px-[24px] h-[12vh] md:px-[80px] md:justify-center align-middle md:h-fit`}>
             <div className='block md:hidden'>
                 <Link href='/'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="35" viewBox="0 0 21 35" fill="none">
@@ -64,7 +65,7 @@ export default function Header(){
             <motion.div layout
                 initial={{ opacity: 0}}
                 animate={{opacity: isOpen ? 1 : 0}}
-                 className={`flex bg-purple top-[12vh] left-0 absolute w-full flex-col h-[91.2vh] justify-around text-center items-center p-2 pb-10 text-[2rem]`}>
+                 className={`flex bg-purple top-[12vh] left-0 absolute z-20 w-full flex-col h-[91.2vh] justify-around text-center items-center p-2 pb-10 text-[2rem]`}>
             <Link className='text-white no-underline'  onClick={toggleMwenu} href='/'>Home</Link>
             <Link className='text-white no-underline'  onClick={toggleMwenu} href='/'>About</Link>
             <Link className='text-white no-underline'  onClick={toggleMwenu} href='/'>Projects</Link>
