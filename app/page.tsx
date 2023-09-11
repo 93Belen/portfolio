@@ -1,4 +1,5 @@
 import SVGh2 from "./components/SVGh2";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -14,11 +15,11 @@ export default function Home() {
         </div>
         <p className='text-white text-md'>Passionate about crafting innovative solutions. With a background in Next JS, React, AWS, Prisma, Tailwind CSS, and Git, I specialize in front-end developing, delivering clean and scalable code.</p>
      </div>
-     <button className='bg-purple w-[13.25rem] h-[4rem] cursor-pointer'>
+     <Link href='/about' className='bg-purple w-[13.25rem] h-[4rem] cursor-pointer'>
         <div className='border-2 border-white w-[13.25rem] h-[4rem] relative left-2 top-2 flex justify-center z-0 hover:left-1 hover:top-1 duration-100'>
           <p className='text-white self-center text-md'>More about me</p>
         </div>
-     </button>
+     </Link>
       </section>
      <div className='pt-[80px] pb-[40px] lg:hidden floating-svg'>
         <svg xmlns="http://www.w3.org/2000/svg" width="149" height="177" viewBox="0 0 149 177" fill="none">
