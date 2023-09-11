@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hover {
+  color: #0000;
+  background: 
+    linear-gradient(90deg,#5544DC 50%, #F1F1F1 0) 
+    var(--_p,100%)/200% no-repeat;
+  -webkit-background-clip: text;
+          background-clip: text;
+  transition: .4s;
+}
+.hover:hover {
+  --_p: 0%;
+}
+.hoverlink {
+  color: #0000;
+  background: 
+    linear-gradient(90deg,#F1F1F1 50%, #5544DC 0) 
+    var(--_p,100%)/200% no-repeat;
+  -webkit-background-clip: text;
+          background-clip: text;
+  transition: .4s;
+}
+.hoverlink:hover {
+  --_p: 0%;
+}
