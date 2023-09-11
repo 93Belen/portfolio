@@ -1,16 +1,14 @@
+import SVGh2 from "./components/SVGh2";
 
 export default function Home() {
   return (
-    <main className='min-h-[100vh] bg-black flex flex-col lg:flex-row lg:justify-between'>
+    <section className='min-h-[100vh] bg-black flex flex-col lg:flex-row lg:justify-between'>
       <section className='flex flex-col gap-[24px]'>
       <div className='flex flex-col gap-[40px] lg:max-w-[50vw]'>
         <div className='pt-[24px] md:pt-[10vh]'>
           <div className='flex flex-row'>
             <h1 className='text-lg text-white md:text-[3rem] lg:text-xl'>hey, I'm</h1>
-            <svg xmlns="http://www.w3.org/2000/svg" width="66" height="50" viewBox="0 0 66 50" fill="none">
-              <path d="M0 39.5365L24.3264 0.44043V16.9476L57.3408 19.554L0 39.5365Z" fill="#5544DC"/>
-              <path d="M2.1888 38.3602L33.6069 4.69745L30.4193 20.894L62.3091 29.8264L2.1888 38.3602Z" stroke="#FBF351"/>
-            </svg>
+            <SVGh2/>
           </div>
           <h1 className='text-lg text-white md:text-[3rem] lg:text-xl'>belén, your <br/> software developer</h1>
         </div>
@@ -46,6 +44,6 @@ export default function Home() {
       <path d="M139 94.7832C139.288 94.6804 139.662 94.5503 140.114 94.4005C141.253 94.0225 142.882 93.519 144.849 93.0157C148.779 92.0099 154.074 91.0001 159.5 91.0001C164.884 91.0001 169.647 91.2507 173.063 91.5014C174.772 91.6268 176.145 91.7522 177.091 91.8463C177.461 91.8831 177.766 91.9152 178 91.9406V84.9505C177.989 84.9494 177.978 84.9482 177.967 84.9471C177.655 84.9152 177.2 84.8699 176.629 84.816C175.487 84.7083 173.878 84.5665 172.016 84.4304C168.289 84.158 163.558 83.9093 159.511 83.9999C155.526 84.0892 150.301 84.7105 146.058 85.3126C143.939 85.6132 142.071 85.9082 140.733 86.1281C140.063 86.2381 139.527 86.3292 139.158 86.3928C139.101 86.4025 139.049 86.4116 139 86.42V94.7832Z" fill="#5544DC" stroke="white"/>
       </svg>
      </div>
-    </main>
+    </section>
   )
 }
