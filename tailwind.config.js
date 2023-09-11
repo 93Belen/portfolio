@@ -25,13 +25,13 @@ module.exports = {
     fontSize: {
       "sm": '1.125rem',
       "md": "1.25rem",
-      "lg": "2.25",
+      "lg": "2.25rem",
       "xl": '4rem'
     },
     screens: {
       'sm': '300px',
       'md': '600px',
-      'lg': '924px',
+      'lg': '1024px',
       'xl': '1180px',
       '2xl': '1436px',
     },
