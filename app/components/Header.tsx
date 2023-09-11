@@ -67,7 +67,7 @@ export default function Header(){
                 animate={{opacity: isOpen ? 1 : 0}}
                  className={`flex bg-purple top-[12vh] left-0 absolute z-20 w-full flex-col h-[91.2vh] justify-around text-center items-center p-2 pb-10 text-[2rem]`}>
             <Link className='text-white no-underline'  onClick={toggleMwenu} href='/'>Home</Link>
-            <Link className='text-white no-underline'  onClick={toggleMwenu} href='/'>About</Link>
+            <Link className='text-white no-underline'  onClick={toggleMwenu} href='/about'>About</Link>
             <Link className='text-white no-underline'  onClick={toggleMwenu} href='/'>Projects</Link>
             <Link className='text-white no-underline'  onClick={toggleMwenu} href='/'>Contact</Link>
             <div></div>
@@ -79,7 +79,7 @@ export default function Header(){
                 <svg className='m-auto' xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 16 16" fill="none">
                 <circle cx="8" cy="8" r="8" fill="#5544DC"/>
                 </svg>
-                <Link className='hover' href='/'>About</Link>
+                <Link className='hover' href='/about'>About</Link>
                 <svg className='m-auto' xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 16 16" fill="none">
                 <circle cx="8" cy="8" r="8" fill="#5544DC"/>
                 </svg>
