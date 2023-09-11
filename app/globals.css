@@ -50,3 +50,27 @@
 }
 
 
+/* Define the flicker animation */
+@keyframes flicker {
+  0% {
+    fill-opacity: 0.05;
+    stop-opacity: 0.4;
+  }
+  50% {
+    fill-opacity: 0.25;
+    stop-opacity: initial;
+  }
+  100% {
+    fill-opacity: 0.05;
+    stop-opacity: 0.4;
+    
+  }
+}
+
+/* Apply the animation to the SVG element */
+
+
+.light{
+  animation: flicker 5s infinite;
+  stroke-opacity: 0;
+}
