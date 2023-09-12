@@ -19,7 +19,7 @@ export default function Projects(){
                     <SVGh2/>
                 </div>
                 <div className='flex flex-col gap-[1.5rem]'>
-                    <p className='text-white text-sm md:text-md lg:text-sm'>Here are a few of my latest projects. Recently, I’ve worked on portfolios, e-commerce, and branding websites. Here are a few of my latest projects. Recently, I’ve worked on portfolios, e-commerce, and branding websites.</p>
+                    <p className='text-white text-sm md:text-md lg:text-sm'>In my recent projects, I’ve had the opportunity to work on a diverse range of websites. My work includes constructing portfolios for myself and a UX designer, a user-friendly contractor's website, and a dynamic online space tailored for guitar enthusiasts. </p>
                 </div>
                 </div>
                 <div className='md:pb-[40px] justify-start w-full'>

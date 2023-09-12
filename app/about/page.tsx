@@ -1,3 +1,4 @@
+import Link from "next/link";
 import SVGh2 from "../components/SVGh2";
 
 export default function About(){
@@ -9,7 +10,7 @@ export default function About(){
                 <SVGh2/>
             </div>
             <div className='flex flex-col gap-[1.5rem]'>
-                <p className='text-white text-sm md:text-md lg:text-sm'>Here are a few of my latest projects. Recently, I’ve worked on portfolios, e-commerce, and branding websites. Here are a few of my latest projects. Recently, I’ve worked on portfolios, e-commerce, and branding websites.</p>
+                <p className='text-white text-sm md:text-md lg:text-sm'>Hi! I'm Belén, a React Developer from Spain, now calling Kansas City my home. I am a certified AWS Cloud Practitioner, Front-end Developer volunteeer at <Link className='underline underline-offset-2 hover:text-yellow' target='_blank' href='https://www.hackforla.org'>Hack for LA</Link>, Co-founder of <Link target='_blank' className='underline underline-offset-2 hover:text-yellow' href=''>Hispanos y Amigos Tech-KC</Link> and Freelancer Web Developer with <Link target='_blank' className='underline underline-offset-2 hover:text-yellow' href='https://www.instagram.com/lbkc.web/'>LBKC</Link>.</p>
                 <div className='md:max-w-[65%]'>
                 <svg width="100%" height="auto" viewBox="0 0 323 54" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_14830_754)">
@@ -54,8 +55,8 @@ export default function About(){
                     It was during the lockdown in Spain that I stumbled upon coding, and fell in love with it. As soon as restrictions eased, my husband and I decided to pursue a brighter future in America, where he grew up.
                     Here in Kansas City, I put myself through the LaunchCode Web Development program, I got my AWS Cloud Practitioner Certification, I am contributing with my skills to the Hack for LA organization, I am gaining experience working with a UX designer building websites for real clients, and I have co-founded Hispanos y Amigos Tech-KC.
                     In just six years, I've transitioned from a place where opportunities were scarce to a place where I can create my own. This journey has been a testament to my resilience, adaptability, and unwavering determination to craft a brighter future for myself and my community.
-
                     </p>
+                    <Link href='' className='text-yellow my-4 text-sm hover:text-white'>See my resume here</Link>
                 </div>
             </div>
             </div>

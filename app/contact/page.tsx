@@ -19,16 +19,16 @@ export default function Contact(){
                     Have a project idea or need assistance with website development? Feel free to reach out if you're interested in collaborating or if you have any inquiries. 
                     </p>
                     <div className='lg:hidden flex flex-row gap-[12px] justify-around'>
-                        <Link href='/'>
+                        <Link target='_blank' href='https://www.linkedin.com/in/93belen/'>
                             <Linkedin/>
                         </Link>
-                        <Link href='/'>
+                        <Link target='_blank' href='https://github.com/93Belen'>
                             <GitHub/>
                         </Link>
-                        <Link href='/'>
+                        <Link target='_blank' href='https://www.instagram.com/belen_dev/'>
                             <Instagram/>
                         </Link>
-                        <Link href='/'>
+                        <Link target='_blank' href='/'>
                             <Meetup/>
                         </Link>
                     </div>
