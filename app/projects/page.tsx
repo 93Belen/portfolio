@@ -11,7 +11,7 @@ export default function Projects(){
 
 
     return (
-        <section className='min-h-[90vh] bg-black w-full pb-64'>
+        <section className='min-h-[90vh] bg-black w-full pb-64 h-fit'>
             <div className='flex flex-col lg:flex-row w-full justify-between'>
                 <div className='flex flex-col gap-[2.5rem] lg:max-w-[50%]'>
                 <div className='flex flex-row'>
@@ -81,7 +81,7 @@ export default function Projects(){
 
                 </div>
             </div>
-            <div className='flex flex-col gap-[40px]'>
+            <div className='flex flex-col md:gap-[40px] gap-[20px]'>
                 {cards}
             </div>
         </section>
