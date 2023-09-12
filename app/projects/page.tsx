@@ -3,7 +3,7 @@ import SVGh2 from "../components/SVGh2"
 import { projectsInfo } from "../projectsInfo/projects"
 
 export default function Projects(){
-    const cards = []
+    const cards: JSX.Element[] = []
     const projects = projectsInfo;
     projects.forEach(project => {
         cards.push(<Card info={project} />)
