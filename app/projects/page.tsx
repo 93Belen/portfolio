@@ -1,9 +1,17 @@
 import Card from "../components/Card"
 import SVGh2 from "../components/SVGh2"
+import { projectsInfo } from "../projectsInfo/projects"
 
 export default function Projects(){
+    const cards = []
+    const projects = projectsInfo;
+    projects.forEach(project => {
+        cards.push(<Card info={project} />)
+    });
+
+
     return (
-        <section className='min-h-[90vh] bg-black w-full'>
+        <section className='min-h-[90vh] bg-black w-full pb-64'>
             <div className='flex flex-col lg:flex-row w-full justify-between'>
                 <div className='flex flex-col gap-[2.5rem] lg:max-w-[50%]'>
                 <div className='flex flex-row'>
@@ -74,10 +82,7 @@ export default function Projects(){
                 </div>
             </div>
             <div className='flex flex-col gap-[40px]'>
-                <Card/>
-                <Card/>
-                <Card/>
-                <Card/>
+                {cards}
             </div>
         </section>
     )
