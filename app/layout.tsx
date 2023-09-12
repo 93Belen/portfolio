@@ -21,10 +21,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html className={`${montserrat.variable}`} lang="en">
+    <html className={`${montserrat.variable} bg-black`} lang="en">
       <body>
         <Header/>
-        <main className='px-[24px] md:px-[80px] bg-black'>
+        <main className='px-[24px] md:px-[80px] bg-black text-white'>
         {children}
         </main>
         <Footer/>
