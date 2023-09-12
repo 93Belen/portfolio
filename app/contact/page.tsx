@@ -28,7 +28,7 @@ export default function Contact(){
                         <Link target='_blank' href='https://www.instagram.com/belen_dev/'>
                             <Instagram/>
                         </Link>
-                        <Link target='_blank' href='/'>
+                        <Link target='_blank' href='https://www.meetup.com/hispanos-y-amigos-tech-kc/'>
                             <Meetup/>
                         </Link>
                     </div>
