@@ -25,7 +25,10 @@ export default function ContactForm(){
           body: JSON.stringify(data)
         });
         fetchPromise
-          .then(response => response.json())
+          .then(response => {
+              response.json()
+              setSent(true)
+            })
           .then(data => {
             console.log(data); // handle response, catch errors
         })
