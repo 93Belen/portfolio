@@ -11,7 +11,7 @@ export default function Footer(){
                     <Link target='_blank' href='https://www.instagram.com/belen_dev/'><AiFillInstagram className='text-[2rem]'/></Link>
                     <Link target='_blank' href='https://www.linkedin.com/in/93belen/'><AiFillLinkedin className='text-[2rem]'/></Link>
                     <Link target='_blank' href='https://github.com/93Belen'><AiFillGithub className='text-[2rem]' /></Link>
-                    <Link target='_blank' href=''><FaMeetup className='text-[2rem]' /></Link>
+                    <Link target='_blank' href='https://www.meetup.com/hispanos-y-amigos-tech-kc/'><FaMeetup className='text-[2rem]' /></Link>
                 </div>
             <p className='hidden md:block justify-self-end self-end'>@Belen Garcia Martinez 2023</p>
             </div>
