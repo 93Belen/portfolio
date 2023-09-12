@@ -56,7 +56,9 @@ export default function ContactForm(){
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
                 >
-                    <AiOutlineCheck className='text-[2rem] m-auto' />
+                    <div className='border-2 border-white w-[9.45569rem] h-[3.26763rem] relative left-2 top-2 flex justify-center z-0 hover:left-1 hover:top-1 duration-100'>
+                        <AiOutlineCheck className='self-center text-lg' />
+                    </div>
                 </motion.div>
                 ) : (
                 <motion.span
