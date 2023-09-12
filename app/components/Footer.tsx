@@ -3,7 +3,7 @@ import { AiFillInstagram, AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
 import { FaMeetup } from 'react-icons/fa'
 export default function Footer(){
     return (
-        <section className='bg-black text-white py-[40px] px-[24px] md:px-[80px] flex flex-col gap-[12px]'>
+        <section className='bg-black text-white py-[40px] px-[24px] md:px-[80px] flex flex-col gap-[12px] border-t-2 border-t-white mt-7'>
             <h2 className='font-bold text-md'>Belen Garcia Martinez</h2>
             <p className='text-sm md:max-w-[80%] lg:max-w-[50%] md:text-[1rem]'>Software developer - add one to two sentences about self - maybe an attention grabber. Software developer - add one to two sentences about self </p>
             <div className='flex flex-row justify-between'>

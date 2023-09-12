@@ -13,7 +13,8 @@ module.exports = {
       'black': "#13141A",
       "yellow": "#FBF351",
       "purple": "#5544DC",
-      "white": "#FFFFFF"
+      "white": "#FFFFFF",
+      'gray': "#232528"
     },
     fontFamily: {
       'sans': ['var(--font-montserrat)']

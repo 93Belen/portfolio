@@ -69,7 +69,7 @@ export default function Header(){
             <Link className='text-white no-underline'  onClick={toggleMwenu} href='/'>Home</Link>
             <Link className='text-white no-underline'  onClick={toggleMwenu} href='/about'>About</Link>
             <Link className='text-white no-underline'  onClick={toggleMwenu} href='/projects'>Projects</Link>
-            <Link className='text-white no-underline'  onClick={toggleMwenu} href='/'>Contact</Link>
+            <Link className='text-white no-underline'  onClick={toggleMwenu} href='/contact'>Contact</Link>
             <div></div>
             </motion.div>
             </AnimatePresence>
@@ -87,7 +87,7 @@ export default function Header(){
                 <svg className='m-auto' xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 16 16" fill="none">
                 <circle cx="8" cy="8" r="8" fill="#5544DC"/>
                 </svg>
-                <Link className='hover' href='/'>Contact</Link>
+                <Link className='hover' href='/contact'>Contact</Link>
             </div>
         </header>
     )
