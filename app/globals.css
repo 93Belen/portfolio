@@ -74,3 +74,29 @@
   animation: flicker 5s infinite;
   stroke-opacity: 0;
 }
+
+@keyframes flicker {
+  0%, 10.5%, 11.5%, 100% {
+    stroke-opacity: 1;
+    filter: brightness(1.2);
+  }
+  10%, 11% {
+    stroke-opacity: 0.8;
+    filter: brightness(1);
+  }
+  10.2%, 11.2% {
+    stroke-opacity: 0.6;
+    filter: brightness(0.8);
+  }
+  10.3%, 11.3% {
+    stroke-opacity: 0.4;
+    filter: brightness(0.6);
+  }
+  10.4%, 11.4% {
+    stroke-opacity: 0.2;
+    filter: brightness(0.4);
+  }
+}
+#neonBorder {
+  animation: flicker 1s infinite;
+}
