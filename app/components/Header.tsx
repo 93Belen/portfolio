@@ -63,8 +63,8 @@ export default function Header(){
             </AnimatePresence>
             <AnimatePresence>
             <motion.div layout
-                initial={{ opacity: 0}}
-                animate={{opacity: isOpen ? 1 : 0}}
+                initial={{ display: 'none'}}
+                animate={{ display: isOpen ? "flex" : "none"}}
                  className={`flex bg-purple top-[12vh] left-0 absolute z-20 w-full flex-col h-[91.2vh] justify-around text-center items-center p-2 pb-10 text-[2rem]`}>
             <Link className='text-white no-underline'  onClick={toggleMwenu} href='/'>Home</Link>
             <Link className='text-white no-underline'  onClick={toggleMwenu} href='/about'>About</Link>
