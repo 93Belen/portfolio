@@ -84,16 +84,16 @@ export default function Contact(){
                     </svg>
                 </div>
                     <div className='flex flex-row gap-[12px] justify-around'>
-                        <Link href='/'>
+                        <Link target='_blank' href='https://www.linkedin.com/in/93belen/'>
                             <Linkedin/>
                         </Link>
-                        <Link href='/'>
+                        <Link target='_blank' href='https://github.com/93Belen'>
                             <GitHub/>
                         </Link>
-                        <Link href='/'>
+                        <Link target='_blank' href='https://www.instagram.com/belen_dev/'>
                             <Instagram/>
                         </Link>
-                        <Link href='/'>
+                        <Link target='_blank' href='https://www.meetup.com/hispanos-y-amigos-tech-kc/'>
                             <Meetup/>
                         </Link>
     </div>
