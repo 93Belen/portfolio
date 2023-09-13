@@ -15,7 +15,7 @@ export const projectsInfo = [
         name: 'Portfolio Liz Brown',
         description: "I handled the software development for a UX designer, transforming their creative concepts into functional and user-friendly digital experiences.",
         details: 'I crafted Liz\'s portfolio using TypeScript and React, leveraging Next.js for a dynamic frontend. Tailwind CSS ensured sleek styling, while Framer Motion added captivating animations. AWS handled the seamless deployment, resulting in a polished and professional portfolio.',
-        link: 'https://main.d133mxwccc452n.amplifyapp.com'
+        link: 'https://www.jaysconstructionkc.com'
     },
     {
         name: 'Wunderlust Guitars',
