@@ -14,7 +14,6 @@ export const projectsInfo = [
     {
         name: 'Portfolio Belen Garcia Martinez',
         description: "Crafted a personal portfolio. This showcase highlights my passion for creating digital solutions and demonstrates some of my most recent work.",
-        details: 'I crafted my portfolio using TypeScript and React, leveraging Next.js for a dynamic frontend. Tailwind CSS ensured sleek styling, while Framer Motion added captivating animations. AWS handled the seamless deployment, resulting in a polished and professional portfolio.',
         link: 'https://main.d133mxwccc452n.amplifyapp.com',
         tech: ['AWS', 'Next JS', 'React', 'TypeScript', 'Tailwind CSS', 'Bootstrap', 'Framer Motion']
     }
