@@ -34,7 +34,7 @@ export default function About(){
                     Here in Kansas City, I put myself through the LaunchCode Web Development program, I got my AWS Cloud Practitioner Certification, I am contributing with my skills to the Hack for LA organization, I am gaining experience working with a UX designer building websites for real clients, and I have co-founded Hispanos y Amigos Tech-KC. <br /><br />
                     In just six years, I've transitioned from a place where opportunities were scarce to a place where I can create my own. This journey has been a testament to my resilience, adaptability, and unwavering determination to craft a brighter future for myself and my community.
                     </p>
-                    <a download="Belen-Garcia-Martinez" target='_blank' href='BelenGarciaMartinezWeb.pdf' className='text-yellow my-4 text-sm hover:text-white'>Download my resume here</a>
+                    <a download="BelenGarciaMartinez.pdf" href='BelenGarciaMartinezWeb.pdf' className='text-yellow my-4 text-sm hover:text-white'>Download my resume here</a>
                 </div>
             </div>
             </div>
