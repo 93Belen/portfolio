@@ -13,7 +13,7 @@ export const projectsInfo = [
     },
     {
         name: 'Portfolio Belen Garcia Martinez',
-        description: "Crafted a personal portfolio. This showcase highlights my passion for creating digital solutions and demonstrates some of my most recent work.",
+        description: "Crafted a personal portfolio. This highlights my passion for creating digital solutions and demonstrates some of my most recent work.",
         link: 'https://main.d133mxwccc452n.amplifyapp.com',
         tech: ['AWS', 'Next JS', 'React', 'TypeScript', 'Tailwind CSS', 'Bootstrap', 'Framer Motion']
     }
