@@ -16,7 +16,7 @@ export default function About(){
                 <SVGh2/>
             </div>
             <div className='flex flex-col gap-[1.5rem]'>
-                <p className='text-white text-sm md:text-md lg:text-sm'>Hi! I'm Belén, a React Developer from Spain, now calling Kansas City my home. I am a certified AWS Cloud Practitioner, Front-end Developer volunteeer at <Link className='underline underline-offset-2 hover:text-yellow' target='_blank' href='https://www.hackforla.org'>Hack for LA</Link>, founder of <Link target='_blank' className='underline underline-offset-2 hover:text-yellow' href='https://www.meetup.com/hispanos-y-amigos-tech-kc/'>Hispanos y Amigos Tech-KC</Link> and Freelancer Web Developer with <Link target='_blank' className='underline underline-offset-2 hover:text-yellow' href='https://www.instagram.com/lbkc.web/'>LBKC</Link>.</p>
+                <p className='text-white text-sm md:text-md lg:text-sm'>Hi! I'm Belén, a React Developer from Spain, now calling Kansas City my home. I am a certified AWS Cloud Practitioner, Front-end Developer volunteeer at <Link className='underline underline-offset-2 hover:text-yellow' target='_blank' href='https://www.hackforla.org'>Hack for LA</Link>, co-founder of <Link target='_blank' className='underline underline-offset-2 hover:text-yellow' href='https://www.meetup.com/hispanos-y-amigos-tech-kc/'>Hispanos y Amigos Tech-KC</Link> and Freelancer Web Developer with <Link target='_blank' className='underline underline-offset-2 hover:text-yellow' href='https://www.instagram.com/lbkc.web/'>LBKC</Link>.</p>
                 <div className='md:max-w-[95%] flex flex-row gap-2'>
                 <NextJs/>
                 <React/>
