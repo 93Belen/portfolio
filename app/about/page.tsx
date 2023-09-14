@@ -50,13 +50,13 @@ export default function About(){
                 <div className='flex flex-col gap-[40px]'>
                     <h2 className='text-lg text-white md:text-[3rem] lg:text-xl'>my journey</h2>
                     <p className='text-white text-sm md:text-md lg:text-sm'>
-                    My journey to this point has been nothing short of transformative. Six years ago, I took the life-changing decision of moving to London. I left the lack of opportunities and uncertain future in Spain to carve out a better path for myself in the UK, even though I didn’t speak English at the time.
-                    Over a few years, I not only became fluent in English but also built a career in the retail industry. However, the looming shadow of Brexit prompted many immigrants to return to their countries, myself included, ultimately leading to my decision to return to Spain right before Covid hit.
-                    It was during the lockdown in Spain that I stumbled upon coding, and fell in love with it. As soon as restrictions eased, my husband and I decided to pursue a brighter future in America, where he grew up.
-                    Here in Kansas City, I put myself through the LaunchCode Web Development program, I got my AWS Cloud Practitioner Certification, I am contributing with my skills to the Hack for LA organization, I am gaining experience working with a UX designer building websites for real clients, and I have co-founded Hispanos y Amigos Tech-KC.
+                    My journey to this point has been nothing short of transformative. Six years ago, I took the life-changing decision of moving to London. I left the lack of opportunities and uncertain future in Spain to carve out a better path for myself in the UK, even though I didn’t speak English at the time. <br /><br />
+                    Over a few years, I not only became fluent in English but also built a career in the retail industry. However, the looming shadow of Brexit prompted many immigrants to return to their countries, myself included, ultimately leading to my decision to return to Spain right before Covid hit. <br /><br />
+                    It was during the lockdown in Spain that I stumbled upon coding, and fell in love with it. As soon as restrictions eased, my husband and I decided to pursue a brighter future in America, where he grew up. <br /><br />
+                    Here in Kansas City, I put myself through the LaunchCode Web Development program, I got my AWS Cloud Practitioner Certification, I am contributing with my skills to the Hack for LA organization, I am gaining experience working with a UX designer building websites for real clients, and I have co-founded Hispanos y Amigos Tech-KC. <br /><br />
                     In just six years, I've transitioned from a place where opportunities were scarce to a place where I can create my own. This journey has been a testament to my resilience, adaptability, and unwavering determination to craft a brighter future for myself and my community.
                     </p>
-                    <Link href='' className='text-yellow my-4 text-sm hover:text-white'>See my resume here</Link>
+                    <a download="Belen-Garcia-Martinez" target='_blank' href='BelenGarciaMartinezResumeWeb.pdf' className='text-yellow my-4 text-sm hover:text-white'>Download my resume here</a>
                 </div>
             </div>
             </div>
