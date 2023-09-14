@@ -1,5 +1,15 @@
+"use client"
+import { OverlayTrigger, Tooltip } from 'react-bootstrap';
+
+
+
 export default function Instagram(){
     return (
+        <OverlayTrigger
+        placement='top'
+        delay={{ show: 250, hide: 400 }}
+        overlay={<Tooltip id="button-tooltip-2"><p className='text-white bg-gray rounded-md p-1'>Instagram</p></Tooltip>}
+        >
         <svg className='lg:h-[70px]' width="auto" height="50px" viewBox="0 0 65 66" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect x="1.24121" y="9.62781" width="55.7158" height="55.5744" stroke="#5544DC"/>
         <path d="M49.0677 16.4671L51.7084 12.023L50.2827 16.6101L50.0672 17.3036L50.7167 17.3299L53.4895 17.4422L50.5751 18.6164L49.6078 19.0062L50.5212 19.5826L54.0762 21.8262L50.2532 20.5533L49.4536 20.287L49.685 21.2003L50.6962 25.1916L48.7134 21.4537L48.349 20.7669L47.9394 21.3984L45.4324 25.2637L47.0215 20.6123L47.2775 19.8631L46.5678 19.8772L43.5884 19.9365L46.4418 18.6962L47.1606 18.3837L46.5666 17.7991L43.3098 14.5939L46.8449 16.8236L47.644 17.3276L47.5249 16.3017L47.1624 13.1797L48.2466 16.345L48.5734 17.299L49.0677 16.4671Z" fill="white" stroke="white"/>
@@ -14,5 +24,6 @@ export default function Instagram(){
         </clipPath>
         </defs>
         </svg>
+        </OverlayTrigger>
     )
 }

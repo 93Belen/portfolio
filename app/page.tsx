@@ -13,7 +13,7 @@ export default function Home() {
           </div>
           <h1 className='text-lg text-white md:text-[3rem] lg:text-xl'>belén, your <br/> software developer</h1>
         </div>
-        <p className='text-white text-md'>Passionate about crafting innovative solutions. With a background in TypeScript, Next JS Client and Server Side rendering, React, AWS, a variety of CSS Libraries, and Git among many others.</p>
+        <p className='text-white text-md'>Passionate about crafting innovative solutions. With a background in TypeScript, Next JS's Client and Server Side, React, AWS, a variety of CSS Libraries, State managment libraries, and Git among many others.</p>
      </div>
      <Link href='/about' className='bg-purple w-[13.25rem] h-[4rem] cursor-pointer'>
         <div className='border-2 border-white w-[13.25rem] h-[4rem] relative left-2 top-2 flex justify-center z-0 hover:left-1 hover:top-1 duration-100'>

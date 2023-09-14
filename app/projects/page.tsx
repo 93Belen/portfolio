@@ -11,7 +11,7 @@ export default function Projects(){
 
 
     return (
-        <section className='min-h-[90vh] bg-black w-full pb-64 h-fit'>
+        <section className='min-h-[90vh] bg-black w-full h-fit pb-20'>
             <div className='flex flex-col lg:flex-row w-full justify-between'>
                 <div className='flex flex-col gap-[2.5rem] lg:max-w-[50%]'>
                 <div className='flex flex-row'>

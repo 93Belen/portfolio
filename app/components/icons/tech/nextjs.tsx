@@ -1,5 +1,14 @@
+"use client"
+import { OverlayTrigger, Tooltip } from 'react-bootstrap';
+
+
 export default function NextJs(){
     return (
+        <OverlayTrigger
+        placement='top'
+        delay={{ show: 250, hide: 400 }}
+        overlay={<Tooltip id="button-tooltip-2"><p className='text-white bg-gray rounded-md p-1'>Next JS</p></Tooltip>}
+        >
         <svg className='lg:h-[70px] m-auto' width="auto" height="50px" viewBox="0 0 59 43" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clip-path="url(#clip0_14868_135)">
         <path d="M42.0602 0.682617L42.7854 15.9113L58.0141 4.30851L46.7956 18.4857L58.0141 22.4379L45.3452 22.8368L58.0141 36.2163L42.7854 26.0638L42.0602 42.0177L38.4343 26.0638L23.9307 36.2163L35.5336 22.4379L23.2056 18.8121L36.2588 18.0869L26.1063 1.40779L39.1595 15.1862L42.0602 0.682617Z" fill="#5544DC"/>
@@ -11,6 +20,6 @@ export default function NextJs(){
         </clipPath>
         </defs>
         </svg>
-
+</OverlayTrigger>
     )
 }
