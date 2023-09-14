@@ -75,7 +75,7 @@
   stroke-opacity: 0;
 }
 
-@keyframes flicker {
+@keyframes flicker2 {
   0%, 10.5%, 11.5%, 100% {
     stroke-opacity: 1;
     filter: brightness(1.2);
@@ -98,5 +98,5 @@
   }
 }
 #neonBorder {
-  animation: flicker 1s infinite;
+  animation: flicker2 1s infinite;
 }
