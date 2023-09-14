@@ -16,7 +16,7 @@ export default function About(){
                 <SVGh2/>
             </div>
             <div className='flex flex-col gap-[1.5rem]'>
-                <p className='text-white text-sm md:text-md lg:text-sm'>Hi! I'm Belén, a React Developer from Spain, now calling Kansas City my home. I am a certified AWS Cloud Practitioner, Front-end Developer volunteeer at <Link className='underline underline-offset-2 hover:text-yellow' target='_blank' href='https://www.hackforla.org'>Hack for LA</Link>, Co-founder of <Link target='_blank' className='underline underline-offset-2 hover:text-yellow' href='https://www.meetup.com/hispanos-y-amigos-tech-kc/'>Hispanos y Amigos Tech-KC</Link> and Freelancer Web Developer with <Link target='_blank' className='underline underline-offset-2 hover:text-yellow' href='https://www.instagram.com/lbkc.web/'>LBKC</Link>.</p>
+                <p className='text-white text-sm md:text-md lg:text-sm'>Hi! I'm Belén, a React Developer from Spain, now calling Kansas City my home. I am a certified AWS Cloud Practitioner, Front-end Developer volunteeer at <Link className='underline underline-offset-2 hover:text-yellow' target='_blank' href='https://www.hackforla.org'>Hack for LA</Link>, founder of <Link target='_blank' className='underline underline-offset-2 hover:text-yellow' href='https://www.meetup.com/hispanos-y-amigos-tech-kc/'>Hispanos y Amigos Tech-KC</Link> and Freelancer Web Developer with <Link target='_blank' className='underline underline-offset-2 hover:text-yellow' href='https://www.instagram.com/lbkc.web/'>LBKC</Link>.</p>
                 <div className='md:max-w-[95%] flex flex-row gap-2'>
                 <NextJs/>
                 <React/>
@@ -34,7 +34,7 @@ export default function About(){
                     Here in Kansas City, I put myself through the LaunchCode Web Development program, I got my AWS Cloud Practitioner Certification, I am contributing with my skills to the Hack for LA organization, I am gaining experience working with a UX designer building websites for real clients, and I have co-founded Hispanos y Amigos Tech-KC. <br /><br />
                     In just six years, I've transitioned from a place where opportunities were scarce to a place where I can create my own. This journey has been a testament to my resilience, adaptability, and unwavering determination to craft a brighter future for myself and my community.
                     </p>
-                    <a download="Belen-Garcia-Martinez" target='_blank' href='BelenGarciaMartinezResumeWeb.pdf' className='text-yellow my-4 text-sm hover:text-white'>Download my resume here</a>
+                    <a download="Belen-Garcia-Martinez" target='_blank' href='BelenGarciaMartinezWeb.pdf' className='text-yellow my-4 text-sm hover:text-white'>Download my resume here</a>
                 </div>
             </div>
             </div>
