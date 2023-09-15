@@ -40,7 +40,7 @@ export default function ContactForm(){
 
     return (
         <section className='w-full max-w-[600px]'>
-        <form action={endpoint} onSubmit={handleSubmit} method="POST" className={`flex flex-col gap-3 justify-center w-full`}>
+        <form action={endpoint} onSubmit={handleSubmit} method="POST" className={`flex flex-col justify-center w-full`}>
             <label htmlFor="">Name</label>
             <input onChange={(e) => setName(e.target.value)} className='border-2 border-black w-full p-1 bg-gray' type="text" required />
             <label htmlFor="">Email</label>
@@ -48,7 +48,7 @@ export default function ContactForm(){
             <label htmlFor="">Message</label>
             <textarea onChange={(e) => setMessage(e.target.value)} className='border-2 border-black w-full p-1 bg-gray' name="" id="" cols={10} rows={10} required></textarea>
             <button
-            className='bg-purple w-[9.45569rem] h-[3.26763rem] cursor-pointer'>
+            className='bg-purple w-[9.45569rem] h-[3.26763rem] cursor-pointer mt-[24px]'>
             <AnimatePresence>
             {sent ? (
                 <motion.div
