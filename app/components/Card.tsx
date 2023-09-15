@@ -24,7 +24,7 @@ export default function Card(props: {info:{name: String, description: String, li
                 <p className='text-white text-sm'>
                 {info.description}
                 </p>
-                <div className='grid grid-cols-2 gap-5 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4'>
+                <div className='grid gap-[12px] md:grid-cols-5 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-5'>
                     {chips}
                 </div>
 
