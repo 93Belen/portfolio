@@ -1,6 +1,6 @@
-import Card from "../components/Card"
-import SVGh2 from "../components/SVGh2"
-import { projectsInfo } from "../projectsInfo/projects"
+import Card from "../../components/Card"
+import SVGh2 from "../../components/SVGh2"
+import { projectsInfo } from "../../projectsInfo/projects"
 
 export default function Projects(){
     const cards: JSX.Element[] = []

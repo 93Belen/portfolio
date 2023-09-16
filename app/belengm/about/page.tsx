@@ -1,11 +1,11 @@
 import Link from "next/link";
-import Aws from "../components/icons/tech/aws";
-import Git from "../components/icons/tech/git";
-import NextJs from "../components/icons/tech/nextjs";
-import Prisma from "../components/icons/tech/prisma";
-import React from "../components/icons/tech/react";
-import Tailwind from "../components/icons/tech/tailwind";
-import SVGh2 from "../components/SVGh2";
+import Aws from "../../components/icons/tech/aws";
+import Git from "../../components/icons/tech/git";
+import NextJs from "../../components/icons/tech/nextjs";
+import Prisma from "../../components/icons/tech/prisma";
+import React from "../../components/icons/tech/react";
+import Tailwind from "../../components/icons/tech/tailwind";
+import SVGh2 from "../../components/SVGh2";
 
 export default function About(){
     return (

@@ -67,9 +67,9 @@ export default function Header(){
                 animate={{ display: isOpen ? "flex" : "none"}}
                  className={`flex bg-purple top-[12vh] left-0 absolute z-20 w-full flex-col h-[91.2vh] justify-around text-center items-center p-2 pb-10 text-[2rem]`}>
             <Link className='text-white no-underline'  onClick={toggleMwenu} href='/'>Home</Link>
-            <Link className='text-white no-underline'  onClick={toggleMwenu} href='/about'>About</Link>
-            <Link className='text-white no-underline'  onClick={toggleMwenu} href='/projects'>Projects</Link>
-            <Link className='text-white no-underline'  onClick={toggleMwenu} href='/contact'>Contact</Link>
+            <Link className='text-white no-underline'  onClick={toggleMwenu} href='/belengm/about'>About</Link>
+            <Link className='text-white no-underline'  onClick={toggleMwenu} href='/belengm/projects'>Projects</Link>
+            <Link className='text-white no-underline'  onClick={toggleMwenu} href='/belengm/contact'>Contact</Link>
             <div></div>
             </motion.div>
             </AnimatePresence>
@@ -79,15 +79,15 @@ export default function Header(){
                 <svg className='m-auto' xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 16 16" fill="none">
                 <circle cx="8" cy="8" r="8" fill="#5544DC"/>
                 </svg>
-                <Link className='hover' href='/about'>About</Link>
+                <Link className='hover' href='/belengm/about'>About</Link>
                 <svg className='m-auto' xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 16 16" fill="none">
                 <circle cx="8" cy="8" r="8" fill="#5544DC"/>
                 </svg>
-                <Link className='hover' href='/projects'>Projects</Link>
+                <Link className='hover' href='/belengm/projects'>Projects</Link>
                 <svg className='m-auto' xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 16 16" fill="none">
                 <circle cx="8" cy="8" r="8" fill="#5544DC"/>
                 </svg>
-                <Link className='hover' href='/contact'>Contact</Link>
+                <Link className='hover' href='/belengm/contact'>Contact</Link>
             </div>
         </header>
     )
