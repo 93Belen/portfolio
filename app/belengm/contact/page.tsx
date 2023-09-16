@@ -1,10 +1,10 @@
 import Link from "next/link"
-import ContactForm from "../components/Contactform"
-import GitHub from "../components/icons/socialmedia/github"
-import Instagram from "../components/icons/socialmedia/instagram"
-import Linkedin from "../components/icons/socialmedia/linkedin"
-import Meetup from "../components/icons/socialmedia/meetup"
-import SVGh2 from "../components/SVGh2"
+import ContactForm from "../../components/Contactform"
+import GitHub from "../../components/icons/socialmedia/github"
+import Instagram from "../../components/icons/socialmedia/instagram"
+import Linkedin from "../../components/icons/socialmedia/linkedin"
+import Meetup from "../../components/icons/socialmedia/meetup"
+import SVGh2 from "../../components/SVGh2"
 
 export default function Contact(){
     return (
