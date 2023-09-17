@@ -16,7 +16,7 @@ export default function Contact(){
                 </div>
                 <div className='flex flex-col gap-[24px] lg:max-w-[40vw]'>
                     <p className='max-w-full'>
-                    Have a project idea or need assistance with website development? Feel free to reach out if you're interested in collaborating or if you have any inquiries. 
+                    Want to chat or or interested in collaborating on a project?  Feel free to email me at belengm.dev@gmail.com or drop me a line below.
                     </p>
                     <div className='lg:hidden flex flex-row gap-[12px] justify-around'>
                         <Link target='_blank' href='https://www.linkedin.com/in/93belen/'>
