@@ -1,7 +1,7 @@
 export const projectsInfo = [
     {
         name: 'Food Oasis',
-        description: "I am part of the Team that develops, updates and mantain Food Oasis withing the Hack For LA organization.",
+        description: "I am part of the team that develops, updates, and maintains Food Oasis within the Hack For LA organization.",
         link: 'https://foodoasis.la',
         tech: ['React', 'JavaScript', 'Material-UI']
     },
