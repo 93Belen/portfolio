@@ -1,5 +1,11 @@
 export const projectsInfo = [
     {
+        name: 'Food Oasis',
+        description: "I am part of the Team that develops, updates and mantain Food Oasis withing the Hack For LA organization.",
+        link: 'https://foodoasis.la',
+        tech: ['React', 'JavaScript', 'Material-UI']
+    },
+    {
         name: 'Jay\'s Construction',
         description: "Developed Jay's Construction website, empowering Jay to not only attract new business but also establish a strong brand presence in the construction industry.",
         link: 'https://www.jaysconstructionkc.com',
