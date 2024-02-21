@@ -90,7 +90,7 @@ export default function Contact(){
                         <Link target='_blank' href='https://github.com/93Belen'>
                             <GitHub/>
                         </Link>
-                        <Link target='_blank' href='https://www.instagram.com/belen_dev/'>
+                        <Link target='_blank' href='https://www.instagram.com/evil_belencita/'>
                             <Instagram/>
                         </Link>
                         <Link target='_blank' href='https://www.meetup.com/hispanos-y-amigos-tech-kc/'>
