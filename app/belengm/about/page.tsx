@@ -23,7 +23,6 @@ export default function About(){
                 <Aws/>
                 <Tailwind/>
                 <Git/>
-                <Prisma/>
                 </div>
                 <div className='flex flex-col gap-[40px]'>
                     <h2 className='text-lg text-white md:text-[3rem] lg:text-xl'>my journey</h2>
